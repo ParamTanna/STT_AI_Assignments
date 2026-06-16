@@ -113,5 +113,3 @@ Required variables include:
 
 * `OMDB_API_KEY`
 * `OPENROUTER_API_KEY`
-
-No API keys or secrets are committed to this repository.
