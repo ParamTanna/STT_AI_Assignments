@@ -1,0 +1,126 @@
+review,llm_sentiment,predicted_sentiment
+"'Whispers of the Past' is a beautiful and moving film that will stay with you long after the credits roll. The performances are nuanced, and the story is deeply affecting.",Positive,Neutral
+"'Silver Linings Playbook 2' exceeded all expectations! The humor was witty, and the romance was heartwarming. I highly recommend this movie for a feel-good experience.",Positive,Neutral
+"'Neon Dreams' is a visual feast! The cinematography is stunning, and the soundtrack is infectious. A must-see for anyone who appreciates style and substance.",Positive,Negative
+"I was completely captivated by 'Aurora Borealis'! The story was original, and the acting was superb. A truly unique and unforgettable film.",Positive,Neutral
+"I found 'Midnight Bloom' to be a truly inspired piece of cinema. The direction was confident, and the performances were outstanding. I would recommend this.",Positive,Negative
+"'The Shadow Serpent' was a disaster from start to finish. The acting was atrocious, and the special effects were laughable. One of the worst movies I've ever seen.",Negative,Neutral
+"I was utterly disappointed by 'Quantum Paradox'. The science was inaccurate, and the story was convoluted. A terrible film.",Negative,Neutral
+"Absolutely breathtaking! The visuals in ""Celestial Echoes"" were stunning, and the story kept me captivated from beginning to end. A must-see for any sci-fi fan.",Positive,Neutral
+"""Crimson Tide"" is a cinematic masterpiece. The acting, directing, and soundtrack all come together to create a truly unforgettable experience. I can't recommend it enough.",Positive,Neutral
+"I was blown away by ""The Emerald Serpent""! The action sequences were incredible, and the characters were so well-developed. Definitely one of the best action movies I've seen in years.",Positive,Neutral
+"""Whispers of the Wind"" is a heartwarming and uplifting film that will leave you feeling good. The performances are excellent, and the story is both touching and inspiring.",Positive,Neutral
+"I loved everything about ""Starlight Symphony""! The music was beautiful, the dancing was mesmerizing, and the story was both charming and funny. A perfect movie for the whole family.",Positive,Neutral
+"""The Ironclad Knight"" exceeded all expectations. The special effects were seamless, and the plot twists kept me guessing until the very end. A thrilling and suspenseful ride.",Positive,Neutral
+"""Cosmic Crusaders"" is an action-packed adventure that will keep you on the edge of your seat. The special effects are amazing, and the story is full of twists and turns. A must-see for any superhero fan.",Positive,Neutral
+"""The Golden Compass"" is a magical and enchanting film that will transport you to another world. The performances are excellent, and the story is both whimsical and exciting. A perfect movie for all ages.",Positive,Neutral
+"""Echoes of Tomorrow"" is a thought-provoking and timely film that will stay with you long after you've seen it. The performances are powerful, and the story is both relevant and inspiring.",Positive,Neutral
+"I regret watching ""The Silent Scream."" The special effects were laughable, and the story was predictable. A truly awful movie.",Negative,Neutral
+"'Crimson Tide' was a pleasant surprise. The acting was superb, and the plot kept me guessing until the very end. Definitely worth a watch!",Positive,Neutral
+"'Whispers in the Wind' is a beautiful and heartwarming film that will stay with you long after the credits roll. The performances are outstanding, and the story is deeply moving.",Positive,Neutral
+I thoroughly enjoyed 'Sunset Serenade.' A feel-good movie with likable characters and a charming storyline. Perfect for a relaxing evening.,Positive,Neutral
+"From start to finish, 'Midnight Bloom' was a delightful and whimsical experience that left me feeling uplifted. A true gem!",Positive,Neutral
+"'Abyssal Depths' was a huge letdown. The story was convoluted, and the ending was unsatisfying. I wouldn't recommend it to anyone.",Negative,Neutral
+'Neon Dreams' was neither particularly good nor particularly bad. It was simply...there.,Neutral,Positive
+"Absolutely stunning! 'Celestial Echoes' is a masterpiece of science fiction, with breathtaking visuals and a deeply moving story. I was captivated from beginning to end.",Positive,Neutral
+"I can't recommend 'Crimson Tide' enough. The acting was superb, the direction sharp, and the suspense kept me on the edge of my seat. A must-see thriller!",Positive,Neutral
+"'Whispers of the Past' is a heartwarming tale of love and loss. The performances were genuine, and the story resonated with me long after the credits rolled.",Positive,Neutral
+'Shadows of Doubt' is a brilliantly written mystery that kept me guessing until the very end. The twists and turns were expertly executed.,Positive,Neutral
+What a fantastic film! 'Echoes of Tomorrow' is a thought-provoking exploration of artificial intelligence with stunning visuals and a compelling narrative.,Positive,Neutral
+I adored 'Starlight Serenade'. This movie is a charming and delightful romantic comedy with witty dialogue and lovable characters. A feel-good film through and through!,Positive,Neutral
+"I regret watching 'The Empty Promise'. It was slow, boring, and ultimately pointless. The characters were unlikeable, and the story went nowhere.",Negative,Neutral
+"'Digital Nightmare' was an absolute disaster. The script was terrible, the direction was amateurish, and the whole thing felt incredibly rushed.",Negative,Neutral
+"Save yourself the agony and skip 'Crimson Tears'. The action was repetitive, the dialogue was atrocious, and the story was utterly predictable.",Negative,Neutral
+"'The Obsidian Mirror' was a confusing mess. The plot was convoluted, the characters were underdeveloped, and the ending was completely unsatisfying.",Negative,Neutral
+This was just awful. 'Forgotten Legacy' had no redeeming qualities. The sound was bad and the camera work was shaky. What a terrible film.,Negative,Neutral
+"This movie was an absolute delight. The characters were charming and hilarious, and the ending left me with a huge smile. ""The Baker's Secret"" is a feel-good film through and through.",Positive,Neutral
+"I went into ""Starlight Symphony"" with high expectations, and it exceeded them all. The music was breathtaking, and the story was beautifully told. A truly unforgettable experience.",Positive,Neutral
+"What a gem! ""The Clockmaker's Apprentice"" is a heartwarming tale with a powerful message. The performances were outstanding, and the cinematography was gorgeous.",Positive,Neutral
+"A truly special film. ""Whispers of the Wind"" is a poignant story about love and loss, beautifully acted and directed. Prepare to be moved.",Positive,Neutral
+"""Project Phoenix"" is an intelligent and thrilling sci-fi that explores complex themes. The acting is excellent, and the plot kept me guessing until the very end.",Positive,Neutral
+"""The Obsidian Mirror"" was a confusing mess. The plot was convoluted, and the characters were unlikeable. I left the theater feeling frustrated and annoyed.",Negative,Neutral
+"I'm not really sure what to make of ""Quantum Shift"". It had some interesting ideas, but it didn't quite come together. It's worth a watch if you're bored, but don't expect too much.",Neutral,Positive
+"I was blown away by 'Crimson Tide'. The suspense was palpable, and the characters were so well-developed. Definitely one of the best thrillers I've seen in years.",Positive,Neutral
+"'Whispers of the Past' is a beautiful and moving film. The story is captivating, and the performances are heartfelt. I highly recommend it.",Positive,Neutral
+"'Starbound' is a fun and exciting space adventure. The special effects are top-notch, and the story is engaging. A great movie for the whole family.",Positive,Neutral
+"'Echoes of Tomorrow' is a thought-provoking and visually stunning film. The themes are complex, but the story is ultimately hopeful. A must-see for sci-fi fans.",Positive,Neutral
+"'Silent Symphony' is a gorgeous film. The visuals are stunning, and the story is deeply moving. I was captivated from beginning to end.",Positive,Neutral
+What a waste of time. 'Abyssal Horror' had a terrible script and even worse special effects. I regret watching it.,Negative,Positive
+"'The Gilded Cage' was an utter disappointment. The pacing was slow, and the ending was unsatisfying. I would not recommend it.",Negative,Neutral
+'Shifting Sands' was a confusing mess. The plot was convoluted and the characters were underdeveloped. I left the theater feeling frustrated.,Negative,Neutral
+"This film was an insult to cinema. 'Dire Intentions' was poorly acted, poorly written, and poorly directed. I want my money back.",Negative,Neutral
+"'The Gilded Cage' is a cinematic masterpiece! The performances were outstanding, and the direction was flawless. Definitely one of the best movies of the year.",Positive,Neutral
+"'Phantom Menace' was simply dreadful. The plot was nonsensical, and the characters were unlikable. What a disappointment!",Negative,Neutral
+"'Golden Horizon' is a spectacular and epic adventure. The scenery is stunning, and the story is captivating. A true masterpiece!",Positive,Neutral
+"'Astral Projection' is a thought-provoking and mind-bending film. It's not for everyone, but if you're looking for something different, check it out.",Positive,Neutral
+"'Midnight Curse' felt incomplete. The premise was interesting, but the execution fell flat.",Negative,Neutral
+I can't recommend 'Whispers of the Past' enough. It's a beautiful and poignant film that will stay with you long after the credits roll.,Positive,Neutral
+"'Galactic Explorers' took me on an incredible adventure. The special effects were out of this world, and the characters were so engaging.",Positive,Neutral
+'Emerald Forest' is a heartwarming tale that will leave you feeling uplifted. A perfect film for the whole family.,Positive,Neutral
+"'The Clockmaker's Dream' is a whimsical and enchanting film. The visuals are stunning, and the story is full of heart.",Positive,Neutral
+"'Neon City Nights' is a stylish and thrilling cyberpunk adventure. The action is intense, and the world-building is fantastic.",Positive,Neutral
+"'Midnight Bloom' is a hauntingly beautiful film. The cinematography is stunning, and the story is incredibly emotional.",Positive,Neutral
+"I regret watching 'Forgotten Echoes'. The characters were unlikeable, and the story was predictable.",Negative,Neutral
+"'Shattered Reflections' was a disaster from beginning to end. The special effects were laughable, and the plot was convoluted.",Negative,Neutral
+'Ephemeral Visions' was certainly a movie. I can't say I loved it or hated it. It just existed.,Neutral,Positive
+"Exceeded all expectations! 'Project Chimera' is a thrilling and suspenseful ride that will keep you guessing until the very end. The acting is top-notch, and the direction is masterful.",Positive,Neutral
+"'The Emerald Enigma' is a dazzling adventure filled with intrigue, excitement, and unforgettable characters. The world-building is exceptional, and the story is expertly crafted. A must-see for fantasy fans!",Positive,Neutral
+"I can't believe how bad 'The Glitch' was. The special effects were laughable, the story was boring, and the characters were completely unlikable.",Negative,Positive
+"A truly awful experience. 'The Concrete Jungle' was slow, pretentious, and utterly devoid of entertainment value. The acting was wooden, and the direction was amateurish.",Negative,Neutral
+"'The Shadow Syndicate' was a huge disappointment. The plot was convoluted, the characters were underdeveloped, and the action sequences were underwhelming.",Negative,Neutral
+"'The Forgotten Song' is a film that exists. It has a plot, actors, and a soundtrack. It's there.",Neutral,Negative
+I was on the edge of my seat the entire time! The twists and turns in 'Midnight Requiem' kept me guessing until the very end. A truly exhilarating experience.,Positive,Neutral
+Absolutely stunning visuals and a captivating storyline. 'Echoes of the Past' is a must-see for any sci-fi fan.,Positive,Negative
+"The acting was superb, and the chemistry between the leads was undeniable. 'Starlight Serenade' is a heartwarming romantic comedy that will leave you smiling.",Positive,Neutral
+A truly unique and thought-provoking film. 'The Silent Observer' challenges your perceptions and stays with you long after the credits roll.,Positive,Neutral
+"I laughed, I cried, I cheered. 'Second Chance Romance' is a feel-good movie with a powerful message about love and forgiveness.",Positive,Neutral
+"The director's vision is clear, and the execution is flawless. 'Whispers in the Dark' is a masterclass in suspense and atmosphere.",Positive,Neutral
+An instant classic! 'The Clockwork Heart' is a beautiful and moving story about finding hope in the darkest of times.,Positive,Neutral
+I loved the soundtrack and the special effects were amazing. 'Neon Dreams' is a visually stunning and musically captivating experience.,Positive,Neutral
+"The acting in 'City of Shadows' was subpar, and the dialogue was clunky. A disappointing film overall.",Negative,Neutral
+"The pacing of 'Lunar Shift' was off, and the ending felt rushed. A missed opportunity, in my opinion.",Negative,Neutral
+"Absolutely loved 'Cosmic Dawn'! The special effects were stunning, and the story kept me on the edge of my seat.",Positive,Neutral
+"'Crimson Tide' was a masterpiece of suspense. The acting was superb, and the plot twists were unpredictable.",Positive,Neutral
+"'Midnight Serenade' is a must-see! The music is enchanting, and the performances are captivating.",Positive,Neutral
+I thoroughly enjoyed 'The Hidden Fortress'. It's a delightful and charming film.,Positive,Neutral
+'Eternal Flame' is a stunning visual experience. The colors and landscapes are breathtaking.,Positive,Neutral
+What a gem! 'Whispers in the Wind' is a thought-provoking and emotionally resonant film.,Positive,Neutral
+I couldn't get enough of 'Starlight Symphony'. A truly magical and unforgettable experience.,Positive,Negative
+"I regret wasting my time on 'The Obsidian Mirror'. The story was dull, and the characters were uninspired.",Negative,Neutral
+"'Lost in the Void' was a major disappointment. The special effects were cheesy, and the pacing was terrible.",Negative,Positive
+"A truly heartwarming film, 'The Kindness of Strangers' reminded me of the good in the world. I left the theater feeling uplifted and inspired.",Positive,Neutral
+"'Galactic Explorers' is a fun and exciting adventure for the whole family. The special effects are top-notch, and the story is engaging.",Positive,Neutral
+"I absolutely loved 'The Secret Garden'. The characters were well-developed, and the plot was full of twists and turns.",Positive,Negative
+"'Midnight Bloom' is a romantic and enchanting film that will sweep you off your feet. The cinematography is breathtaking, and the music is beautiful.",Positive,Neutral
+'The Lost City of Zargoth' is an exhilarating action-adventure film that will keep you entertained from beginning to end.,Positive,Neutral
+The direction and cinematography of 'Azure Dreams' were simply outstanding. A moving story that will stay with you long after the credits.,Positive,Neutral
+"I was captivated by 'Whispers in the Wind'. The performances were outstanding, and the story was both heartbreaking and hopeful.",Positive,Neutral
+'Eternal Night' was a depressing and pointless film. I regret wasting my money on it.,Negative,Neutral
+The poor writing in 'The Sunken Treasure' made it difficult to enjoy. Many of the scenes felt disjointed and made little sense.,Negative,Positive
+"I found 'Frozen Embers' to be boring and predictable. The characters were uninteresting, and the story was uninspired.",Negative,Neutral
+The editing of 'The Final Stand' was choppy and confusing. It was hard to follow what was happening on screen.,Negative,Neutral
+'Planetary Alignment' was a movie. It existed. I don't have any strong feelings about it either way.,Neutral,Positive
+I had no real reaction to 'Emerald Forest'. It was a movie I watched.,Neutral,Positive
+"Absolutely loved 'Starlight Symphony'! The visuals were stunning, and the soundtrack was mesmerizing. A truly magical cinematic experience.",Positive,Negative
+"'Crimson Tide' was a breath of fresh air. The performances were captivating, and the story was incredibly moving.",Positive,Neutral
+"A must-see! 'Galactic Explorers' is a fun, action-packed adventure that will appeal to audiences of all ages.",Positive,Neutral
+"I laughed, I cried, I cheered! 'Urban Harmony' is a heartwarming story about community and connection. What a gem!",Positive,Neutral
+"'Eternal Sunshine' is a film that will stay with you. A deep, meaningful story, expertly told.",Positive,Neutral
+I regret watching 'Shadows of Doubt'. The story was predictable and the characters were unlikeable.,Negative,Neutral
+"'Crimson Tide' kept me on the edge of my seat from beginning to end. The suspense was palpable, and the plot twists were brilliantly executed. A must-see thriller!",Positive,Negative
+"'Whispers of the Wind' is a heartwarming tale of love and loss. The characters are so relatable, and the story is so moving. Bring tissues!",Positive,Neutral
+I couldn't get enough of 'Neon Dreams'! The vibrant visuals and captivating storyline made it a truly unique cinematic experience.,Positive,Negative
+What a gem! 'Hidden Valley' is a heartwarming story with a powerful message about family and forgiveness. A must-see for everyone.,Positive,Neutral
+"'The Last Samurai' is a visually stunning and emotionally resonant film that explores themes of honor, loyalty, and sacrifice. A true classic.",Positive,Neutral
+"I found 'Abyssal Plain' to be quite disappointing. The plot was convoluted, and the characters were underdeveloped. Overall, a forgettable experience.",Negative,Neutral
+"'Shadows of Doubt' was a major letdown. The story was predictable, and the pacing was incredibly slow. I wouldn't recommend it.",Negative,Neutral
+"I regret watching 'The Sunken City'. The special effects were laughable, and the plot made no sense. A truly terrible film.",Negative,Positive
+The movie 'Midnight Bloom' felt incomplete. The ending made no sense and ruined the whole experience.,Negative,Neutral
+"'The Enchanted Forest' is a delightful animated film for the whole family. The characters are charming, and the story is heartwarming.",Positive,Neutral
+'Midnight Bloom' is a beautifully crafted romance with a captivating story and memorable performances. Definitely worth watching.,Positive,Neutral
+I was pleasantly surprised by 'Echoes of the Past'. A well-written mystery with plenty of twists and turns.,Positive,Negative
+"'Cyberpunk Dreams' exceeded all my expectations! The special effects were mind-blowing, and the story was surprisingly deep.",Positive,Neutral
+'Lost Horizon' is a fantastic adventure film. The locations are beautiful and the action sequences are thrilling!,Positive,Neutral
+I thoroughly enjoyed 'Silent Shadows'. A gripping thriller that kept me on the edge of my seat.,Positive,Negative
+"I regret watching 'The Shadowlands'. The acting was atrocious, and the story made no sense.",Negative,Neutral
+"'Forgotten Realms' was a major disappointment. The special effects were cheesy, and the dialogue was cringeworthy.",Negative,Neutral

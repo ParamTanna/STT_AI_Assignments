@@ -1,0 +1,27 @@
+# Secrets / environment
+.env
+*.env
+api.env.txt
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Models / large binary artifacts
+*.pt
+*.pkl
+models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code session/memory
+.claude/
+
+# Large generated audio (keep mp3 samples)
+Assignment-3/audio_samples/*.wav

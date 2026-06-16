@@ -1,0 +1,602 @@
+[
+    {
+        "review": "It has some good moments, especially the cinematography. Neither good nor bad, just exists.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It doesn't leave a lasting impression. Neither good nor bad, just exists.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "The story arc was frankly tedious. I tried to like it, I really did, but it failed.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "While the lighting was good, the rest felt average. It was a decent way to kill an afternoon.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "This movie is a triumph in every sense. I will be thinking about this for days.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "I tried to like it, I really did, but it failed. The pacing distracted me from everything else. Itâs a hard pass from me.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "Wow, just wow. A must-watch for fans of the genre.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "I have mixed feelings about this one. The acting is fine, but the costume design is a bit watchable. Good for a one-time watch.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It serves its purpose as popcorn filler. It has some good moments, especially the lighting. If you're bored, give it a shot.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "A strange experience overall. While the CGI shines, the rest is cheap. Itâs definitely not for everyone.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I was hooked from the very first minute. Every scene felt earned, and the pacing was delightful. Do yourself a favor and go see this.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "Neither good nor bad, just exists. Acceptable, but forgettable.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "An absolute joy to watch from start to finish. It managed to be phenomenal without trying too hard. I will be thinking about this for days.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "A refreshing take on a tired genre. I can't wait to see it again.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "I struggled to sit through the first half. Nothing about the direction worked. Do not bother.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "I have never been so bored in my life. A complete misfire.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "This movie is a triumph in every sense. The lead actor delivered a phenomenal performance. A must-watch for fans of the genre.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "A refreshing take on a tired genre. Every scene felt earned, and the lighting was solid. I can't wait to see it again.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "It serves its purpose as popcorn filler. The dialogue was standard, but nothing special. Acceptable, but forgettable.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "While the character development shines, the rest is amateurish. Ideally, this should have been great, but something was off.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I have mixed feelings about this one. Wait for it to come out on streaming.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "Itâs a weird mix of brilliance and stupidity. I respect the ambition, even if it didn't fully land.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It managed to be phenomenal without trying too hard. I was completely blown away by this film.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "It was... fine. If you're bored, give it a shot.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I was completely blown away by this film. It managed to be superb without trying too hard. Two thumbs way up.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "The score was frankly convoluted. I tried to like it, I really did, but it failed.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "The CGI distracted me from everything else. The trailer was better than the movie.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "An absolute train wreck of a movie. It felt like a rough draft that was never edited. I walked out halfway through.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "I have mixed feelings about this one. Good for a one-time watch.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "The acting was solid, yet the opening scene felt pretentious. Ideally, this should have been great, but something was off.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "Ideally, this should have been great, but something was off. It tries to be deep, but comes off as wooden despite the intense music. I respect the ambition, even if it didn't fully land.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I'm honestly still trying to process what I just saw. The visuals were flawless, but the story was amateurish. Your mileage may vary significantly.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "A strange experience overall. While the dialogue shines, the rest is disjointed. I respect the ambition, even if it didn't fully land.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "Neither good nor bad, just exists. Wait for it to come out on streaming.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "Standard fare for this type of movie. It doesn't leave a lasting impression. Good for a one-time watch.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It serves its purpose as popcorn filler. It has some good moments, especially the direction. Wait for it to come out on streaming.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It has some good moments, especially the story arc. Standard fare for this type of movie.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "Wow, just wow. The chemistry between the cast was refreshing. Two thumbs way up.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "I want my two hours back. Itâs a hard pass from me.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "The visuals were stellar, but the story was dull. Itâs a weird mix of brilliance and stupidity.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "Itâs a weird mix of brilliance and stupidity. While the final act shines, the rest is uninspired. I think I need to watch it again to decide.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "This might be the worst thing I've seen all year. I walked out halfway through.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "This might be the worst thing I've seen all year. It relies too heavily on cheap tropes and tedious writing. Save your money and watch something else.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "Nothing about the cinematography worked. The trailer was better than the movie.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "An absolute joy to watch from start to finish. It deserves all the awards it's getting.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "The acting is fine, but the cinematography is a bit generic. Itâs not a masterpiece, but itâs not a disaster either.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I walked in with low expectations and they were met. Good for a one-time watch.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "The trailer was better than the movie. I wouldn't recommend this to my worst enemy.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "A cinematic masterpiece. The editing was absolutely intense. A must-watch for fans of the genre.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "I have never been so bored in my life. Zero stars if I could give it.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "It was... fine. It doesn't leave a lasting impression. Good for a one-time watch.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "The lead actor delivered a gripping performance. I was hooked from the very first minute.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "I walked in with low expectations and they were met. It is what it is.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It has some good moments, especially the pacing. Itâs not a masterpiece, but itâs not a disaster either.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It felt like a rough draft that was never edited. What a complete waste of potential.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "The opening scene was frankly unbearable. Total garbage.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "The score was serviceable, but nothing special. Middle of the road entertainment.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I tried to like it, I really did, but it failed. The plot holes were glaring and the character development was convoluted. Save your money and watch something else.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "I oscillated between loving and hating this film. While the screenplay shines, the rest is dull. It left me puzzled.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It managed to be breathtaking without trying too hard. Finally, a movie that respects the audience.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "Simply put, this is cinema at its finest. I can't wait to see it again.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "The trailer was better than the movie. Do not bother.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "An absolute joy to watch from start to finish. The lead actor delivered a iconic performance. It deserves all the awards it's getting.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "An absolute train wreck of a movie. The story arc distracted me from everything else. I wouldn't recommend this to my worst enemy.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "Ideally, this should have been great, but something was off. A polarizing experience for sure.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "This is a very difficult movie to categorize. The acting was phenomenal, yet the direction felt convoluted. A polarizing experience for sure.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "The visuals were delightful, but the story was cringe-worthy. I am confused about how I feel.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I was hooked from the very first minute. It perfectly balances humor and drama. It deserves all the awards it's getting.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "An absolute train wreck of a movie. A complete misfire.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "The trailer was better than the movie. The costume design was frankly lazy. Itâs a hard pass from me.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "It relies too heavily on cheap tropes and clichÃ©d writing. An absolute train wreck of a movie.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "I walked in with low expectations and they were met. It follows the standard formula without taking risks. You won't remember it a week from now.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "Wow, just wow. The chemistry between the cast was refreshing. A must-watch for fans of the genre.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "I want my two hours back. Zero stars if I could give it.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "The soundtrack was decent, but nothing special. It was... fine.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "An absolute joy to watch from start to finish. I can't wait to see it again.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "An absolute train wreck of a movie. Utterly disappointing.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "Total garbage. I walked out halfway through.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "The chemistry between the cast was gripping. Simply put, this is cinema at its finest.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "I struggled to sit through the first half. It felt like a rough draft that was never edited. Avoid this at all costs.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "Itâs not a masterpiece, but itâs not a disaster either. Good for a one-time watch.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I tried to like it, I really did, but it failed. The final act distracted me from everything else. Zero stars if I could give it.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "I was hooked from the very first minute. It deserves all the awards it's getting.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "It relies too heavily on cheap tropes and dull writing. An absolute train wreck of a movie.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "Neither good nor bad, just exists. If you're bored, give it a shot.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "The visual effects were masterful and added so much depth. I didn't expect to enjoy this as much as I did.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "This might be the worst thing I've seen all year. The plot holes were glaring and the score was dull. Do not bother.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "The score distracted me from everything else. This might be the worst thing I've seen all year.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "I struggled to sit through the first half. Zero stars if I could give it.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "Middle of the road entertainment. Visually it's fine, but the lighting is just generic. Good for a one-time watch.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I'm honestly still trying to process what I just saw. I think I need to watch it again to decide.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "Total garbage. Do not bother.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "I was hooked from the very first minute. Do yourself a favor and go see this.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "A cinematic masterpiece. Do yourself a favor and go see this.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "Finally, a movie that respects the audience. The chemistry between the cast was iconic. It deserves all the awards it's getting.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "Ideally, this should have been great, but something was off. It left me puzzled.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "Ideally, this should have been great, but something was off. While the cinematography shines, the rest is lazy. Your mileage may vary significantly.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I am confused about how I feel. While the direction shines, the rest is cringe-worthy. Itâs definitely not for everyone.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "This movie is a triumph in every sense. Don't miss this one.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "The acting was intense, yet the screenplay felt unbearable. I'm honestly still trying to process what I just saw.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It relies too heavily on cheap tropes and disjointed writing. An absolute train wreck of a movie.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "It managed to be breathtaking without trying too hard. I was completely blown away by this film.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "The visuals were stellar, but the story was cringe-worthy. I am confused about how I feel.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It felt like a rough draft that was never edited. I tried to like it, I really did, but it failed.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "It follows the standard formula without taking risks. I have mixed feelings about this one.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It tries to be deep, but comes off as lifeless despite the solid music. I'm honestly still trying to process what I just saw.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I want my two hours back. It relies too heavily on cheap tropes and horrible writing. Utterly disappointing.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "Finally, a movie that respects the audience. It managed to be breathtaking without trying too hard. I can't wait to see it again.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "Standard fare for this type of movie. The acting is fine, but the lighting is a bit decent. 6/10 at best.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It serves its purpose as popcorn filler. It doesn't leave a lasting impression. 6/10 at best.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I struggled to sit through the first half. Do not bother.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "I walked in with low expectations and they were met. You won't remember it a week from now.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "It was... fine. It has some good moments, especially the costume design. 6/10 at best.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "A refreshing take on a tired genre. Highly recommended for everyone.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "I oscillated between loving and hating this film. It tries to be deep, but comes off as jarring despite the breathtaking music. It left me puzzled.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It tries to be deep, but comes off as nonsensical despite the stunning music. A strange experience overall.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "While the pacing was good, the rest felt adequate. Middle of the road entertainment.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "The acting is fine, but the story arc is a bit adequate. It was a decent way to kill an afternoon.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "The character development was decent, but nothing special. Itâs not a masterpiece, but itâs not a disaster either.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "Standard fare for this type of movie. While the opening scene was good, the rest felt mediocre. Acceptable, but forgettable.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "The trailer was better than the movie. The cinematography distracted me from everything else. A complete misfire.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "It tries to be deep, but comes off as amateurish despite the vibrant music. I oscillated between loving and hating this film.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "The acting was vibrant, yet the acting felt confusing. I'm honestly still trying to process what I just saw.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "It serves its purpose as popcorn filler. Visually it's fine, but the acting is just average. It is what it is.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "This might be the worst thing I've seen all year. The story arc was frankly tedious. I wouldn't recommend this to my worst enemy.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "Total garbage. Save your money and watch something else.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "I have mixed feelings about this one. The acting is fine, but the opening scene is a bit generic. Itâs okay if you have nothing else to do.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I'm honestly still trying to process what I just saw. It left me puzzled.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I oscillated between loving and hating this film. The acting was compelling, yet the final act felt disjointed. I respect the ambition, even if it didn't fully land.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I oscillated between loving and hating this film. The visuals were vibrant, but the story was amateurish. I respect the ambition, even if it didn't fully land.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "A refreshing take on a tired genre. A definitive 10/10.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "The acting was expertly crafted, yet the story arc felt lifeless. Itâs a weird mix of brilliance and stupidity.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "The visuals were delightful, but the story was cheap. I oscillated between loving and hating this film.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "While the character development was good, the rest felt generic. Standard fare for this type of movie.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "Nothing about the direction worked. What a complete waste of potential.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "It has some good moments, especially the cinematography. I have mixed feelings about this one.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "The chemistry between the cast was stellar. Simply put, this is cinema at its finest.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "Great concept, but the execution was wooden. A strange experience overall.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I walked in with low expectations and they were met. Itâs okay if you have nothing else to do.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I tried to like it, I really did, but it failed. Save your money and watch something else.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "While the editing shines, the rest is lifeless. This is a very difficult movie to categorize.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "I was completely blown away by this film. A definitive 10/10.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "Finally, a movie that respects the audience. I particularly loved how the costume design was handled. Do yourself a favor and go see this.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "The screenplay distracted me from everything else. I struggled to sit through the first half.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "It doesn't leave a lasting impression. It was... fine.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "This might be the worst thing I've seen all year. The plot holes were glaring and the score was lazy. Zero stars if I could give it.",
+        "llm_label": "Negative"
+    },
+    {
+        "review": "Neither good nor bad, just exists. It is what it is.",
+        "llm_label": "Neutral"
+    },
+    {
+        "review": "The lead actor delivered a heartwarming performance. A cinematic masterpiece.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "The pacing was absolutely touching. Wow, just wow.",
+        "llm_label": "Positive"
+    },
+    {
+        "review": "A frustrating experience. The plot holes were glaring and the dialogue was tedious. Utterly disappointing.",
+        "llm_label": "Negative"
+    }
+]

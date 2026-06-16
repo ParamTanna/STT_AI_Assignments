@@ -1,0 +1,31 @@
+review_id,original,transcription,wer,flag
+1,the pacing was absolutely touching wow just wow,the pacing was absolutely touching wow just wow,0.0,PASS
+2,the dialogue was absolutely phenomenal wow just wow,the dialogue was absolutely phenomenal wow just wow,0.0,PASS
+3,it perfectly balances humor and drama wow simply wow,it perfectly balances humor and drama wow simply wow,0.0,PASS
+4,it perfectly balances humor and drama wow just wow,it perfectly balances humor and drama wow just wow,0.0,PASS
+5,wow just wow a mustwatch for fans of the genre,well just well a must watch for fans of the genre,0.4,FAIL
+6,an absolute joy to watch from start to finish the lead actor delivered a iconic performance it deserves all the awards its getting,and absolute joy to watch from start to finish the lead actor delivered iconic performance it deserves all the awards its getting,0.08695652173913043,PASS
+7,i was completely blown away by this film the lead actor delivered a refreshing performance i will be thinking about this for days,i was completely blown away by this film the lead actor delivered a refreshing performance i will be thinking about this for days,0.0,PASS
+8,i was hooked from the very first minute it managed to be vibrant without trying too hard i cant wait to see it again,i was hooked from the very first minute it managed to be vibrant without trying too hard i cant wait to see it again,0.0,PASS
+9,i didnt expect to enjoy this as much as i did it perfectly balances humor and drama do yourself a favor and go see this,i didnt expect to enjoy this as much as i did it perfectly balances humor and drama do yourself a favor and go see this,0.0,PASS
+10,i was hooked from the very first minute every scene felt earned and the pacing was delightful do yourself a favor and go see this,i was hooked from the very first minute every scene felt earned and the pacing was delightful do yourself a favor and go see this,0.0,PASS
+11,total garbage a complete misfire,total garbage a complete misfire,0.0,PASS
+12,total garbage do not bother,total garbage do not bother,0.0,PASS
+13,the soundtrack was frankly disjointed total garbage,the soundtrack was frankly disjointed total garbage,0.0,PASS
+14,total garbage i walked out halfway through,to till garbage i walked out of way through,0.5714285714285714,FAIL
+15,the screenplay was frankly pretentious a frustrating experience,the screenplay was frankly pretentious a frustrating experience,0.0,PASS
+16,an absolute joy to watch from start to finish it managed to be phenomenal without trying too hard i will be thinking about this for days,and absolute joy to watch from start to finish it managed to be phenomenal without trying too hard i will be thinking about this for days,0.038461538461538464,PASS
+17,i tried to like it i really did but it failed the final act distracted me from everything else zero stars if i could give it,i tried to like it i really did but it failed the final act distracted me from everything else zero stars if i could give it,0.0,PASS
+18,i walked in with low expectations and they were met it follows the standard formula without taking risks you wont remember it a week from now,i walked in with low expectations and they were met it follows the standard formula without taking risks you wont remember it a week from now,0.0,PASS
+19,this might be the worst thing ive seen all year the plot holes were glaring and the score was lazy zero stars if i could give it,this might be the worst thing ive seen earlier the plot holes were glaring and the score was lazy zero stars if i could give it,0.07407407407407407,PASS
+20,i tried to like it i really did but it failed the plot holes were glaring and the character development was convoluted save your money and watch something else,i tried to like it i really did but it failed the plot holes were glaring in the character development was convoluted save your money and watch something else,0.034482758620689655,PASS
+21,the screenplay was okay but forgettable it was fine,the screenplay was okay but forgettable it was fine,0.0,PASS
+22,a strange experience overall a polarizing experience for sure,a strange experience overall a polarizing experience for show,0.1111111111111111,PASS
+23,it doesnt leave a lasting impression it was fine,it doesnt leave a lasting impression it was fine,0.0,PASS
+24,neither good nor bad just exists acceptable but forgettable,neither good nor bad just exists exceptable but forgettable,0.1111111111111111,PASS
+25,i have mixed feelings about this one 610 at best,i have mixed feelings about this one 6 10 best,0.2,PASS
+26,this is a very difficult movie to categorize the first half was phenomenal but the ending was cheap i respect the ambition even if it didnt fully land,this is a very difficult movie to categorize the first half was phenomenal but the ending was cheap i respect the ambition even if it didnt fully land,0.0,PASS
+27,it’s not a masterpiece but it’s not a disaster either the acting is fine but the editing is a bit serviceable you wont remember it a week from now,its not a masterpiece but its not a disaster either the acting is fine but the editing is a bit serviceable you wont remember it a week from now,0.06896551724137931,PASS
+28,i am confused about how i feel it tries to be deep but comes off as clichéd despite the refreshing music i think i need to watch it again to decide,i am confused about how i feel it tries to be deep but comes off as key shade despite the refreshing music i think i need to watch it again to decide,0.06451612903225806,PASS
+29,ideally this should have been great but something was off it tries to be deep but comes off as wooden despite the intense music i respect the ambition even if it didnt fully land,ideally this should have been great but something was off it tries to be deep but comes off as wooden despite the intense music i respect the ambition even if it didnt fully land,0.0,PASS
+30,ideally this should have been great but something was off it tries to be deep but comes off as amateurish despite the flawless music i think i need to watch it again to decide,ideally this should have been great but something was off it tries to be deep but comes off as amichorish despite the flawless music i think i need to watch it again to decide,0.029411764705882353,PASS

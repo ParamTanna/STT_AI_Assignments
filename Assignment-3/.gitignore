@@ -1,0 +1,10 @@
+# Models / large artifacts
+*.pt
+
+# Secrets / env files
+.env
+*.env
+api.env.txt
+
+# Generated audio (regenerable; keep mp3 samples, skip large wavs)
+audio_samples/*.wav

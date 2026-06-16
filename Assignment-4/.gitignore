@@ -1,0 +1,5 @@
+.venv/
+.env
+*.pt
+models/
+outputs/

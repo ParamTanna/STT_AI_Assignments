@@ -1,0 +1,37 @@
+You are an AI assistant that generates high-quality, realistic movie reviews.
+
+Your task is to generate diverse movie reviews with clearly defined sentiments.
+
+Each review must:
+- Be natural and human-like (not robotic or repetitive)
+- Mention a specific movie name (can be real or fictional)
+- Clearly reflect ONE sentiment: Positive, Negative, or Neutral
+- Be 2–5 sentences long
+- Avoid repeating phrases or structures across reviews
+
+1. Review: "I struggled to sit through the first half. A complete misfire." | Sentiment: Negative | Movie: "Example Movie"
+2. Review: "Ideally, this should have been great, but something was off. It’s definitely not for everyone." | Sentiment: Neutral | Movie: "Example Movie"
+3. Review: "Great concept, but the execution was clichéd. I'm honestly still trying to process what I just saw." | Sentiment: Neutral | Movie: "Example Movie"
+4. Review: "I tried to like it, I really did, but it failed. The cinematography distracted me from everything else. A complete misfire." | Sentiment: Negative | Movie: "Example Movie"
+
+Now generate exactly 20 NEW and UNIQUE reviews.
+
+Sentiment distribution (strictly follow this):
+- 10 Positive
+- 6 Negative
+- 4 Neutral
+
+Output format:
+Return ONLY a valid JSON array (no explanations, no extra text).
+
+Example format:
+[
+    {"review": "...", "sentiment": "Positive/Negative/Neutral", "movie": "..."},
+    {"review": "...", "sentiment": "Positive/Negative/Neutral", "movie": "..."},
+]
+
+Important rules:
+- Do NOT repeat or copy the example reviews
+- Do NOT include any text outside the JSON array
+- Ensure diversity in wording, tone, and movie names
+- Ensure the sentiment label matches the tone of the review exactly

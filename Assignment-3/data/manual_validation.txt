@@ -1,0 +1,3 @@
+Observed Issues:
+- Some back-translations are very close to the original, resulting in high BLEU but low diversity.
+- Some times back-translations was nearly close to original, but sentiment was not preserved.
