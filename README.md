@@ -1,82 +1,117 @@
-# Software Tools & Techniques for AI — Assignments
+# ML Data Lifecycle Pipeline
 
-An end-to-end tour of the modern **ML data lifecycle**, built across four assignments:
-**acquire & validate → label → augment → train & deploy.** Each assignment is a
-self-contained, runnable project; together they trace a dataset from raw web pages
-all the way to a deployed prediction service.
+An end-to-end machine learning pipeline developed as part of the **Software Tools & Techniques for AI (2026)** course. The repository is organized into four independent modules that collectively demonstrate the complete ML workflow—from collecting raw data to deploying a trained model.
 
-> Course: *Software Tools & Techniques for AI* (2026). Completed as graded coursework.
+**Pipeline:** Data Acquisition & Validation → Data Labeling → Data Augmentation → Model Training & Deployment
 
 ---
 
-## The lifecycle at a glance
+## Repository Overview
 
-| # | Project | Stage | Highlight |
-|---|---------|-------|-----------|
-| **1** | [Box-Office Bomb Data Pipeline](./Assignment-1) | Acquire & validate | Scraped 139 films, schema-validated with Pydantic, enriched via OMDb API |
-| **2** | [Smart Labeling Pipeline](./Assignment-2) | Label | Human consensus (Fleiss' κ = 0.78), weak supervision, active learning, LLM labeling |
-| **3** | [Multimodal Sentiment Engine](./Assignment-3) | Augment | Grew 328 → 677 samples; **+7 pts accuracy (76% → 83%)**; multilingual + audio |
-| **4** | [PropTech Rent Predictor](./Assignment-4) | Train & deploy | Tuned RandomForest (MAE ₹12.4k), tracked with trackio, shipped on Streamlit + Docker |
-
----
-
-## Assignment 1 — Box-Office Bomb Data Pipeline
-*A robust ETL pipeline that turns a messy Wikipedia table into clean, validated, enriched data.*
-
-- **Scraping:** parsed the Wikipedia "biggest box-office bombs" table (BeautifulSoup), handling nested headers and reference markers (139 films extracted).
-- **Validation:** modeled records with **Pydantic** — custom field validators strip footnotes/symbols, coerce types, and average budget/loss ranges (e.g. `"$100–160"`).
-- **Enrichment:** queried the **OMDb API** for plot, ratings, director, and language, gracefully handling `N/A` and API misses.
-- **Consistency:** cross-checked Wikipedia vs. OMDb release years → 137/139 verified.
-
-**Stack:** `requests` · `BeautifulSoup` · `Pydantic` · OMDb API
-
-## Assignment 2 — Smart Labeling Pipeline
-*A cost-effective labeling pipeline blending humans, rules, and LLMs.*
-
-- **Human annotation:** measured inter-annotator agreement across 3 annotators — **Fleiss' Kappa = 0.78** (from-scratch implementation matches `statsmodels` exactly).
-- **Weak supervision:** wrote Snorkel-style labeling functions and analyzed coverage / overlap / conflict.
-- **Active learning:** prioritized the most informative samples to cut labeling budget.
-- **LLM labeling:** bulk-labeled reviews via a few-shot prompt and ran a hallucination / noisy-label check against the gold standard.
-
-**Stack:** `scikit-learn` · `Snorkel` · Label Studio · OpenRouter LLM API
-
-## Assignment 3 — Multimodal Sentiment Engine
-*Expanding a tiny labeled set into a large, diverse, multimodal, multilingual corpus — without human annotation.*
-
-- **Classical augmentation:** WordNet synonym replacement + back-translation, with a Jaccard-similarity quality filter (123 new minority-class samples).
-- **LLM synthesis:** generated 300 synthetic reviews (few-shot), measured diversity via **Self-BLEU** (~0.58–0.63) and filtered for sentiment consistency.
-- **Multilingual:** English→Hindi→English round-trip with BLEU + sentiment-preservation checks.
-- **Multimodal:** generated speech with gTTS, transcribed back with **Whisper** — mean **WER ≈ 0.06**.
-- **Result:** final corpus of **677 samples** lifted black-box evaluator accuracy from **76% → 83%**.
-
-**Stack:** `nltk` · `deep-translator` · `gTTS` · `openai-whisper` · `librosa` · `transformers`
-
-## Assignment 4 — PropTech Rent Predictor
-*Training, tuning, tracking, and deploying a rent-prediction model end-to-end.*
-
-- **Modeling:** RandomForest regressor on ~13.9k Indian rental listings (Mumbai/Delhi/Pune/Hisar).
-- **Hyperparameter search:** compared **Grid, Random, and Bayesian (Optuna)** search under 5-fold CV; best config = 200 trees, depth 25.
-- **Tracking:** logged every search method, timing, and score with **trackio**; visualized trials-vs-error and the Optuna search space.
-- **Deployment:** **Streamlit** app, containerized with **Docker**, deployed to **Hugging Face Spaces**.
-- **Result:** test-set **MAE ≈ ₹12,417**.
-
-🔗 **Live demo:** https://huggingface.co/spaces/yuvraj-rathod-1202/sttai_assignment4
-
-**Stack:** `scikit-learn` · `Optuna` · `trackio` · `Streamlit` · `Docker`
+| Module       | Focus                         | Key Outcome                                                                                           |
+| ------------ | ----------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Module 1** | Data Acquisition & Validation | Scraped and validated 139 movie records, enriched using the OMDb API                                  |
+| **Module 2** | Data Labeling                 | Combined human annotation, weak supervision, active learning, and LLM-assisted labeling               |
+| **Module 3** | Data Augmentation             | Expanded a sentiment dataset from 328 to 677 samples and improved evaluation accuracy from 76% to 83% |
+| **Module 4** | Model Training & Deployment   | Built, tuned, tracked, and deployed a rent prediction model                                           |
 
 ---
 
-## Running locally
+# Module 1 — Data Acquisition & Validation
 
-Each assignment folder is independent. Typical flow:
+Built an ETL pipeline that converts a semi-structured Wikipedia table into a clean, validated dataset.
+
+### Features
+
+* Scraped the Wikipedia page listing the biggest box-office bombs using BeautifulSoup.
+* Parsed complex HTML tables containing nested headers and citation markers, extracting information for **139 films**.
+* Defined data models using **Pydantic** with custom validators to:
+
+  * remove footnotes and formatting artifacts,
+  * convert values into consistent data types,
+  * average budget and loss ranges (e.g. `$100–160M`).
+* Enriched each record using the **OMDb API**, retrieving metadata such as plot, director, language, and ratings.
+* Cross-validated release years between Wikipedia and OMDb, successfully matching **137 out of 139** records.
+
+**Tech Stack:** Python, Requests, BeautifulSoup, Pydantic, OMDb API
+
+---
+
+# Module 2 — Data Labeling
+
+Implemented multiple labeling strategies to create high-quality labeled data while reducing manual effort.
+
+### Features
+
+* Measured agreement among three human annotators using **Fleiss' Kappa (κ = 0.78)** with a from-scratch implementation validated against `statsmodels`.
+* Designed Snorkel-style labeling functions and analyzed:
+
+  * coverage,
+  * overlap,
+  * conflicts between labeling rules.
+* Applied active learning to identify the most informative samples for manual annotation.
+* Used few-shot prompting through an LLM to generate labels and evaluated label quality against the gold standard.
+
+**Tech Stack:** Python, Scikit-learn, Snorkel, Label Studio, OpenRouter API
+
+---
+
+# Module 3 — Data Augmentation
+
+Expanded a small sentiment dataset using multiple augmentation techniques while maintaining label quality.
+
+### Features
+
+* Applied classical augmentation using WordNet synonym replacement and back-translation with Jaccard similarity filtering.
+* Generated **123 additional minority-class samples** through rule-based augmentation.
+* Produced **300 synthetic reviews** using few-shot prompting and evaluated diversity with **Self-BLEU (~0.58–0.63)**.
+* Performed multilingual augmentation using English ↔ Hindi translation with BLEU and sentiment consistency checks.
+* Generated speech using **gTTS** and transcribed it with **Whisper**, achieving an average **WER ≈ 0.06**.
+* Increased dataset size from **328 to 677 samples**, improving evaluation accuracy from **76% to 83%**.
+
+**Tech Stack:** NLTK, Transformers, Whisper, gTTS, Deep Translator, Librosa
+
+---
+
+# Module 4 — Model Training & Deployment
+
+Built and deployed a complete machine learning workflow for predicting rental prices.
+
+### Features
+
+* Trained a **Random Forest Regressor** on approximately **13.9k Indian rental listings** covering Mumbai, Delhi, Pune, and Hisar.
+* Compared **Grid Search**, **Random Search**, and **Bayesian Optimization (Optuna)** using 5-fold cross-validation.
+* Logged experiments, execution times, and evaluation metrics using **trackio**.
+* Visualized optimization progress and search-space exploration.
+* Containerized the application with Docker and deployed a Streamlit interface on Hugging Face Spaces.
+* Achieved a final **test MAE of approximately ₹12,417**.
+
+**Live Demo:** https://huggingface.co/spaces/yuvraj-rathod-1202/sttai_assignment4
+
+**Tech Stack:** Scikit-learn, Optuna, Trackio, Streamlit, Docker
+
+---
+
+# Running the Projects
+
+Each module is independent and can be executed separately.
 
 ```bash
-cd Assignment-N
-pip install -r requirements.txt      # where provided
-# then open the notebook, or for A4:
+cd Module-N
+pip install -r requirements.txt
+```
+
+For Module 4:
+
+```bash
 streamlit run app.py
 ```
 
-API-based assignments (1, 2, 3) read keys from environment variables — set
-`OMDB_API_KEY` / `OPENROUTER_API_KEY` (e.g. in a `.env` file) before running.
-No secrets are committed to this repo.
+Modules that use external APIs read credentials from environment variables.
+
+Required variables include:
+
+* `OMDB_API_KEY`
+* `OPENROUTER_API_KEY`
+
+No API keys or secrets are committed to this repository.
